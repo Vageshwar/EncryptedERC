@@ -13,7 +13,7 @@ export class ArtifactLoader {
   private readonly basePath: string;
 
   constructor() {
-    this.basePath = path.join(process.cwd(), 'artifacts/contracts');
+    this.basePath = path.join(process.cwd(), '../artifacts/contracts');
   }
 
   async loadArtifact(name: ContractName): Promise<ArtifactData> {
