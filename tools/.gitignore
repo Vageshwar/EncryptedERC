@@ -4,3 +4,4 @@ artifacts/
 dist/
 eerc.config.json
 deployment.json
+encryptedkey.json

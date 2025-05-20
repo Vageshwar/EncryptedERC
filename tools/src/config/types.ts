@@ -15,7 +15,7 @@ export interface DeployedAddresses {
 }
 
 export const DEFAULT_CONFIG: TokenConfig = {
-  rpcUrl: "http://localhost:8545",
+  rpcUrl: "http://127.0.0.1:8545",
   name: "Encrypted Token",
   symbol: "EERC",
   decimals: 18,
